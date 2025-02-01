@@ -8,6 +8,9 @@ const livros: Array<Livro> = [
 ];
 
 export class ControleLivros {
+  static obterLivros(): import("react").SetStateAction<Livro[]> {
+      throw new Error('Method not implemented.');
+  }
   static getLivros(): Array<Livro> {
     return livros;
   }
